@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/apigateway/pom.xml" />
         <option value="$PROJECT_DIR$/auth/pom.xml" />
+        <option value="$PROJECT_DIR$/contact_service/pom.xml" />
       </list>
     </option>
   </component>
