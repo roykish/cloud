@@ -10,12 +10,14 @@
         <module name="eureka_server" />
         <module name="contact_service" />
         <module name="userservice" />
+        <module name="hystrix.dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apigateway" target="11" />
       <module name="contact_service" target="11" />
       <module name="eureka_server" target="11" />
+      <module name="hystrix.dashboard" target="11" />
       <module name="userservice" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +26,7 @@
       <module name="apigateway" options="-parameters" />
       <module name="contact_service" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
+      <module name="hystrix.dashboard" options="-parameters" />
       <module name="userservice" options="-parameters" />
     </option>
   </component>
